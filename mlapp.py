@@ -14,8 +14,8 @@ def pencilsketch(inp_img):
     return(final_img)
 
 
-st.title("PencilSketcher App")
-st.write("This Web App is to help convert your photos to realistic Pencil Sketches")
+st.title("Pencil Sketcher App")
+st.write("This Web App helps to convert your photos to realistic Pencil Sketches")
 
 file_image = st.sidebar.file_uploader("Upload your Photos", type=['jpeg','jpg','png'])
 
